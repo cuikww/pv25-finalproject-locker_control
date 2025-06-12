@@ -1,0 +1,184 @@
+/* General window styling */
+QMainWindow, QDialog {
+    background-color: #F2F2F2;
+    border: 1px solid #DBDBD6;
+    border-radius: 8px;
+}
+
+/* Table styling */
+QTableWidget {
+    background-color: #DBDBD6;
+    border: 1px solid #DBDBD6;
+    border-radius: 8px;
+    gridline-color: #F2F2F2;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+}
+
+/* Table item styling */
+QTableWidget::item {
+    padding: 8px;
+    border-bottom: 1px solid #F2F2F2;
+    color: #6F7675;
+    font-weight: 600;
+}
+
+QTableWidget::item:selected {
+    background-color: #FF751A;
+    color: #FFFFFF;
+}
+
+/* Header styling */
+QHeaderView::section {
+    background-color: #595959;
+    color: #FFFFFF;
+    padding: 6px;
+    border: none;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 1px solid #DBDBD6;
+}
+
+/* Button styling */
+QPushButton {
+    background-color: #FF751A;
+    color: #FFFFFF;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background-color: #E56717;
+}
+
+QPushButton:pressed {
+    background-color: #CC5C14;
+}
+
+/* Lock button styling */
+QPushButton#lock_button {
+    background-color: #28A745;
+    color: #FFFFFF;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+QPushButton#lock_button:hover {
+    background-color: #218838;
+}
+
+QPushButton#lock_button:pressed {
+    background-color: #1E7E34;
+}
+
+/* Unlock button styling */
+QPushButton#unlock_button {
+    background-color: #DC3545;
+    color: #FFFFFF;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+QPushButton#unlock_button:hover {
+    background-color: #C82333;
+}
+
+QPushButton#unlock_button:pressed {
+    background-color: #BD2130;
+}
+
+/* View Map button styling */
+QPushButton#map_button {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+QPushButton#map_button:hover {
+    background-color: #0056b3;
+}
+
+QPushButton#map_button:pressed {
+    background-color: #004085;
+}
+
+/* Line edit styling */
+QLineEdit {
+    background-color: #F2F2F2;
+    border: 1px solid #DBDBD6;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    color: #6F7675;
+    font-weight: 600;
+}
+
+QLineEdit:focus {
+    border-color: #FF751A;
+    outline: none;
+}
+
+/* Label styling */
+QLabel {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    color: #6F7675;
+    font-weight: 600;
+}
+
+/* Dock widget styling */
+QDockWidget {
+    background-color: #DBDBD6;
+    border: 1px solid #DBDBD6;
+    border-radius: 8px;
+}
+
+QDockWidget::title {
+    background: linear-gradient(90deg, #595959, #6F7675);
+    color: #FFFFFF;
+    padding: 6px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+QTextEdit {
+    background-color: #F2F2F2;
+    border: 1px solid #DBDBD6;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    color: #6F7675;
+    font-weight: 600;
+}
+
+/* Status bar styling */
+QStatusBar {
+    background-color: #DBDBD6;
+    border-top: 1px solid #DBDBD6;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 14px;
+    color: #6F7675;
+    font-weight: 600;
+}
+
+QStatusBar::item {
+    padding: 5px 10px;
+    border-right: 1px solid #DBDBD6;
+}
